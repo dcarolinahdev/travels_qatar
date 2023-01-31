@@ -1,0 +1,171 @@
+:root
+{
+    --main-color: #A71919;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+h1, h2, h3, nav, nav ul li a, .flex-c b
+{
+    color: var(--main-color);
+}
+
+h1, h2, h3
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 3.4rem;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 1rem;
+    border-bottom: 0.1rem solid;
+}
+
+nav div
+{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+nav ul li
+{
+    display:inline;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a
+{
+    font-weight: bold;
+}
+
+nav figure
+{
+    display: flex;
+    align-items: center;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-align:left;
+}
+
+header
+{
+    margin: 4rem 0rem;
+}
+
+main > div
+{
+    margin: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+main > .flex-c
+{
+    gap: 2rem;
+}
+
+.flex-c
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-c b
+{
+    font-size: 1.4rem;
+}
+
+.flex-c-sb
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-r
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.flex-r-center
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-r-center div
+{
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 0rem 1rem;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flex-r-center figure
+{
+    width: 50%;
+}
+
+.flex-r-center figure img
+{
+    width: 100%;
+    height: auto;
+}
+
+.flex-r-center-p
+{
+    padding: 0rem 6rem;
+}
+
+.img-responsive-w
+{
+    width: 80rem;
+    height: auto;
+}
+
+/*.irw-main
+{
+    width: 100%;
+}*/
