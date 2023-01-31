@@ -87,7 +87,8 @@ main
 
 header
 {
-    margin: 4rem 0rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 main > div
@@ -97,15 +98,16 @@ main > div
     justify-content: center;
 }
 
-main > .flex-c
+.flex-c > figure
 {
-    gap: 2rem;
+    margin-bottom: 4rem;
 }
 
 .flex-c
 {
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .flex-c b
@@ -117,6 +119,17 @@ main > .flex-c
 {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-cl
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.width80vw
+{
+    width: 80vw;
 }
 
 .flex-r
@@ -131,13 +144,13 @@ main > .flex-c
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 3rem;
 }
 
 .flex-r-center div
 {
     width: 50%;
     font-size: 1.2rem;
-    padding: 0rem 1rem;
     display:flex;
     flex-direction: column;
     gap: 1rem;
@@ -159,13 +172,8 @@ main > .flex-c
     padding: 0rem 6rem;
 }
 
-.img-responsive-w
-{
-    width: 80rem;
-    height: auto;
-}
-
-/*.irw-main
+.responsive-banner
 {
     width: 100%;
-}*/
+    height: auto;
+}
