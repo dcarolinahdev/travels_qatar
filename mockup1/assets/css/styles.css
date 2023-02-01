@@ -94,6 +94,7 @@ header
 {
     margin-top: 4rem;
     margin-bottom: 2rem;
+    padding: 0rem 2rem;
 }
 
 main > div
@@ -147,6 +148,11 @@ main > div
     align-items: center;
 }
 
+.gap-about
+{
+    gap: 1.5rem;
+}
+
 .flex-r-center > div
 {
     display:flex;
@@ -178,6 +184,7 @@ main > div
 
 .img-about
 {
-    width: 30vh;
+    width: 100%;
+    max-width: 30vh;
     height: auto;
 }
