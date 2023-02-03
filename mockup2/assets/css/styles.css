@@ -1,3 +1,5 @@
+/* ------ GENERAL --------- */
+
 :root
 {
     --main-color: #A71919;
@@ -13,6 +15,7 @@
 html
 {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 h1, h2, h3, nav, nav ul li a, .flex-c b
@@ -98,6 +101,8 @@ header
     margin-bottom: 5%;
 }
 
+/* ------ INDEX --------- */
+
 .main-index
 {
     width: 90%;
@@ -109,6 +114,10 @@ header
 {
     width: 100%;
     height: auto;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 .main-index-in
@@ -123,21 +132,6 @@ header
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-}
-
-.main-index-in-simple
-{
-    position: absolute;
-    bottom: 30%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-}
-
-.main-index-in > h1, .main-index-in-simple > h1
-{
-    color: white;
 }
 
 .main-index-in > a.button {
@@ -157,6 +151,11 @@ header
 	text-shadow:0px 1px 0px #b23e35;
 }
 
+.main-index-in > h1
+{
+    color: white;
+}
+
 .sec-index
 {
     width: 60%;
@@ -167,6 +166,10 @@ header
 {
     width: 100%;
     height: auto;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 .sec-index-in
@@ -185,6 +188,8 @@ header
     padding: 5%;
     gap: 1rem;
 }
+
+/* ------ ABOUT --------- */
 
 .flex-row
 {
@@ -211,6 +216,27 @@ header
 .img-about
 {
     width: 20vw;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* ------ CONTACT --------- */
+
+.main-index-in-simple
+{
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.main-index-in-simple > h1
+{
+    color: white;
 }
 
 .sec-contact

@@ -1,3 +1,5 @@
+/* ------ GENERAL --------- */
+
 :root
 {
     --main-color: #A71919;
@@ -13,6 +15,7 @@
 html
 {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 h1, h2, h3, nav, nav ul li a, .flex-c b
@@ -104,6 +107,18 @@ main > div
     justify-content: center;*/
 }
 
+/* used in index and contact */
+
+.responsive-banner
+{
+    width: 100%;
+    height: auto;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
 .flex-c
 {
     display:flex;
@@ -117,29 +132,16 @@ main > div
     margin-bottom: 4rem;
 }
 
-.flex-c-sb
-{
-    display: flex;
-    justify-content: space-between;
-}
+/* ------ INDEX --------- */
 
-.flex-cl
+.col50
 {
+    width: 50%;
     display:flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-.width80vw
-{
-    width: 80vw;
-    gap: 2rem;
-}
-
-.responsive-banner
-{
-    width: 100%;
-    height: auto;
-}
+/* ------ ABOUT --------- */
 
 .flex-r-center
 {
@@ -167,19 +169,11 @@ main > div
     justify-content: center;
 }
 
-.col50
-{
-    width: 50%;
-    display:flex;
-    justify-content: center;
-}
-
 .col60
 {
     width: 60%;
     display:flex;
     justify-content: center;
-    /*padding-left: 4rem;*/
 }
 
 .img-about
@@ -187,4 +181,28 @@ main > div
     width: 100%;
     max-width: 30vh;
     height: auto;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* ------ CONTACT --------- */
+
+.flex-c-sb
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-cl
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.width80vw
+{
+    width: 80vw;
+    gap: 2rem;
 }
