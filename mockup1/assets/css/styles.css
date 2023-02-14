@@ -89,6 +89,7 @@ main
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-size: 1.4rem;
     text-align:left;
 }
@@ -195,7 +196,7 @@ main > div
     justify-content: space-between;
 }
 
-.flex-cl
+.flex-col
 {
     display:flex;
     flex-direction: column;
@@ -205,4 +206,93 @@ main > div
 {
     width: 80vw;
     gap: 2rem;
+}
+
+/* ------ PRICES --------- */
+
+main.container-flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+    align-items: center;
+}
+
+main.container-flex > div
+{
+    display: flex;
+    justify-content: center;
+}
+
+table
+{
+    width: 90%;
+}
+
+table, th, td
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+th
+{
+    background-color: var(--main-color);
+    color: white;
+}
+
+tbody > tr
+{
+    border-bottom: 0.11rem solid gray;
+}
+
+tr:hover
+{
+    background-color: #eabdcc;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+/* ------ SERVICES --------- */
+
+.flex-row-services
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8%;
+}
+
+.flex-col-services
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    gap: 1.5rem;
+}
+
+.img-services
+{
+    width: 100%;
+    height: auto;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tab-s
+{
+    margin-left: 1.2rem;
 }

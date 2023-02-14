@@ -18,7 +18,7 @@ html
     font-family: sans-serif;
 }
 
-h1, h2, h3, nav, nav ul li a, .flex-c b
+h1, nav, nav ul li a, .flex-c b
 {
     color: var(--main-color);
 }
@@ -97,8 +97,7 @@ main
 
 header
 {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 10%;
 }
 
 /* ------ INDEX --------- */
@@ -153,7 +152,7 @@ header
 
 .main-index-in > h1
 {
-    color: white;
+    color: black;
 }
 
 .sec-index
@@ -182,7 +181,6 @@ header
 
     display: flex;
     flex-direction: column;
-    color: white;
     justify-content: center;
     margin: 0.5rem;
     padding: 5%;
@@ -205,6 +203,7 @@ header
 {
     display: flex;
     flex-direction: column;
+    width: 20vw;
     gap: 1rem;
 }
 
@@ -234,15 +233,107 @@ header
     text-align: center;
 }
 
-.main-index-in-simple > h1
-{
-    color: white;
-}
-
 .sec-contact
 {
     width: 90%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* ------ AVAILABLE SERVICES --------- */
+
+main.container-flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+    align-items: center;
+}
+
+main.container-flex > div
+{
+    display: flex;
+    justify-content: center;
+}
+
+table
+{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th
+{
+    background-color: #ce8080;
+    border: 0.1rem solid white;
+    padding: 0.5rem 1rem;
+}
+
+td
+{
+    border: 0.1rem solid var(--main-color);
+    padding: 0.5rem 1rem;
+}
+
+tr:nth-child(even)
+{
+    background-color: #f5d0d0;
+}
+
+/* ------ SERVICES --------- */
+
+.flex-row-services
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8%;
+}
+
+.flex-col-services
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    gap: 3rem;
+}
+
+.img-services
+{
+    width: 100%;
+    height: auto;
+
+    -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tab-s
+{
+    margin-left: 1.2rem;
+}
+
+.col40
+{
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+
+.col60
+{
+    width: 60%;
+    display:flex;
+    justify-content: center;
+}
+
+.test
+{
+    padding: 2.5rem;
+    -webkit-box-shadow: inset 0px 0px 25px 2px rgba(167,25,25,0.75);
+    -moz-box-shadow: inset 0px 0px 25px 2px rgba(167,25,25,0.75);
+    box-shadow: inset 0px 0px 25px 2px rgba(167,25,25,0.75);
 }
