@@ -89,9 +89,12 @@ main
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
     align-items: center;
     font-size: 1.4rem;
     text-align:left;
+    margin: 0% 8%;
 }
 
 header
@@ -99,13 +102,6 @@ header
     margin-top: 4rem;
     margin-bottom: 2rem;
     padding: 0rem 2rem;
-}
-
-main > div
-{
-    margin: 2rem 6rem;
-    /*display: flex;
-    justify-content: center;*/
 }
 
 /* used in index and contact */
@@ -295,4 +291,120 @@ tr:hover
 .tab-s
 {
     margin-left: 1.2rem;
+}
+
+/* ------ WIN SHIRT --------- */
+
+div.winShirt
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+div.images
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 10%;
+}
+
+div.div-form
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+div.radio-opts-r
+{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+div.radio-opt-r
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+div.radio-opts-c
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+div.radio-opts-c2
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-left: 2%;
+}
+
+form > div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-form
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.row-form-radio
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.terms-check
+{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.div-form > input
+{
+    width: 60%;
+}
+
+.btn-send
+{
+    display: flex;
+    justify-content: center;
+}
+
+iframe
+{
+    width: 100%;
+    height: 75vh;
+    margin-bottom: 8%;
 }
