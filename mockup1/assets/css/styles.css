@@ -391,7 +391,7 @@ form > div
     margin: 1rem 0rem;
 }
 
-.div-form > input
+.div-form > input, select
 {
     width: 60%;
 }
