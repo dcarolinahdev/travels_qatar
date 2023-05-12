@@ -1,3 +1,5 @@
 # web_latam_travel
 
-Project made from mindhub bootcamp.
+My first project made from mindhub bootcamp.
+
+I use HTML, CSS, javascript and fontawesome for icons, without bootstrap.
